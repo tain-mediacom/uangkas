@@ -1,0 +1,199 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* my css */
+.bg {
+  background: linear-gradient(to right, #cfdae0, #f8f8e0, #ede3ae);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.bg h1 {
+  margin-bottom: 16px;
+  font-family: "Righteous", sans-serif;
+  color: white;
+  font-size: 50px;
+  -webkit-text-stroke: 0.8px rgb(210, 224, 85);
+}
+
+.bg h1 span {
+  color: rgb(175, 173, 20);
+  -webkit-text-stroke: 0;
+}
+.auth {
+  background-color: #fcfcfc;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 3px 4px 3px #505050;
+  border: 1px solid #e0e07f;
+}
+
+.auth input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+  border-radius: 50px;
+  outline: none;
+  border: 2px solid #e2e25f;
+  color: #505050;
+}
+
+.auth button {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  box-sizing: border-box;
+  border-radius: 50px;
+  outline: none;
+  border: 2px solid #e2e25f;
+  cursor: pointer;
+  background: linear-gradient(to right, #f8f8e0, #ede3ae);
+}
+
+.auth button:hover {
+  background: linear-gradient(to right, #f3f3a5, #ebd87d);
+}
+
+.auth p {
+  margin-top: 16px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.auth p a {
+  color: #8d8d0b;
+}
+
+.auth p a:hover {
+  color: #696904;
+  text-decoration: underline;
+}
