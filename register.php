@@ -35,7 +35,7 @@
     }
 
     if (isset($_POST["register"])) {
-        $register = userRegister($conn, $_POST);
+        $register = userRegister($conn);
         if ($register > 0) {
             echo 
             "
